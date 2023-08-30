@@ -1,0 +1,52 @@
+* {
+    background-color: none;
+    /* border: dotted green 1px; */
+}
+
+html {
+    min-height: 100%;
+    min-width: 100%;
+    background: url("./assets/pattern.png") repeat;
+    background-size: 100vh;
+    background-attachment: scroll;
+    background-color: #1f2231;
+}
+
+body {
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #cfcbb1;
+    font-family: Georgia, Serif;
+    font-size: 60px;
+    /* -webkit-text-stroke: 3px black; */
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+p {
+    margin: 30px;
+    color: #cfcbb1;
+    max-width: 400px;
+}
+
+.myPicture {
+    border-radius: 10px;
+    max-height: 500px;
+    filter: drop-shadow(20px 10px 4px #4444dd);
+}
