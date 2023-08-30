@@ -35,6 +35,14 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: #cfcbb1;
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    /* -webkit-text-stroke: 3px black; */
+    margin: 0 0 5px 0;
+}
+
 .flex {
     display: flex;
 }
