@@ -47,8 +47,11 @@ p {
 }
 
 .myPicture {
+    object-fit: cover;
     border-radius: 10px;
-    max-height: 500px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
     filter: drop-shadow(20px 10px 4px #4444dd);
 }
 
