@@ -19,14 +19,6 @@ body {
     align-items: center;
 }
 
-ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 h1 {
     color: #cfcbb1;
     font-family: Georgia, Serif;
@@ -45,6 +37,7 @@ h2 {
 
 .flex {
     display: flex;
+    flex-direction: column;
 }
 
 p {
